@@ -1,0 +1,3085 @@
+version=12;
+class Mission
+{
+	addOns[]=
+	{
+		"everon2014",
+		"A3_Characters_F_Civil",
+		"a3_characters_f",
+		"A3_Structures_F_Furniture",
+		"a3_stones",
+		"CAWater2_seafox_EP1",
+		"A3_Boat_F_Boat_Transport_01",
+		"a3_trees"
+	};
+	addOnsAuto[]=
+	{
+		"A3_Characters_F_Civil",
+		"a3_characters_f",
+		"A3_Structures_F_Furniture",
+		"CAWater2_seafox_EP1",
+		"A3_Boat_F_Boat_Transport_01",
+		"a3_trees",
+		"a3_stones",
+		"everon2014"
+	};
+	randomSeed=3099761;
+	class Intel
+	{
+		resistanceWest=0;
+		startWeather=0.089999996;
+		startFog=0.029999999;
+		startWind=0;
+		forecastWeather=0.84999996;
+		forecastWind=0;
+		forecastWaves=0;
+		year=1999;
+		day=11;
+		minute=5;
+		startFogDecay=0.013;
+		forecastFogDecay=0.013;
+	};
+	class Groups
+	{
+		items=17;
+		class Item0
+		{
+			side="CIV";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={4906.1885,202.27783,6929.3799};
+					azimut=-208.77667;
+					offsetY=1;
+					id=0;
+					side="CIV";
+					vehicle="C_man_1";
+					leader=1;
+					skill=0.60000002;
+				};
+			};
+		};
+		class Item1
+		{
+			side="CIV";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={4928.8403,202.27783,6905.2578};
+					azimut=63.821442;
+					offsetY=1;
+					id=1;
+					side="CIV";
+					vehicle="C_man_1";
+					leader=1;
+					skill=0.60000002;
+				};
+			};
+		};
+		class Item2
+		{
+			side="CIV";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={4823.3569,202.27783,7079.3745};
+					azimut=-295.57901;
+					offsetY=1;
+					id=2;
+					side="CIV";
+					vehicle="C_man_1";
+					leader=1;
+					skill=0.60000002;
+				};
+			};
+		};
+		class Item3
+		{
+			side="CIV";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={4900.0269,202.27783,6953.8413};
+					azimut=68.555748;
+					offsetY=1;
+					id=3;
+					side="CIV";
+					vehicle="C_man_1";
+					leader=1;
+					skill=0.60000002;
+				};
+			};
+		};
+		class Item4
+		{
+			side="CIV";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={4863.4575,202.27783,6960.9551};
+					azimut=-290.8927;
+					offsetY=1;
+					id=4;
+					side="CIV";
+					vehicle="C_man_1";
+					leader=1;
+					skill=0.60000002;
+				};
+			};
+		};
+		class Item5
+		{
+			side="CIV";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={9563.708,285.86935,2978.4849};
+					azimut=-178.02029;
+					offsetY=1;
+					id=5;
+					side="CIV";
+					vehicle="C_man_1";
+					leader=1;
+					skill=0.60000002;
+				};
+			};
+		};
+		class Item6
+		{
+			side="CIV";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={4936.3281,44.638916,9054.0625};
+					azimut=-138.59671;
+					offsetY=1;
+					id=6;
+					side="CIV";
+					vehicle="C_man_1";
+					leader=1;
+					skill=0.60000002;
+				};
+			};
+		};
+		class Item7
+		{
+			side="CIV";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={5698.3755,18.36293,3445.3879};
+					azimut=-266.43921;
+					offsetY=1;
+					id=7;
+					side="CIV";
+					vehicle="C_man_1";
+					leader=1;
+					skill=0.60000002;
+				};
+			};
+		};
+		class Item8
+		{
+			side="CIV";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={5546.563,35.601112,10212.669};
+					azimut=11.184989;
+					offsetY=1;
+					id=8;
+					side="CIV";
+					vehicle="C_man_1";
+					leader=1;
+					skill=0.60000002;
+				};
+			};
+		};
+		class Item9
+		{
+			side="CIV";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={5524.0259,104.34665,6066.0229};
+					azimut=40.717293;
+					offsetY=1;
+					id=9;
+					side="CIV";
+					vehicle="C_man_1";
+					leader=1;
+					skill=0.60000002;
+				};
+			};
+		};
+		class Item10
+		{
+			side="CIV";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={4849.4771,37.468109,11788.231};
+					azimut=-266.51038;
+					offsetY=1;
+					id=10;
+					side="CIV";
+					vehicle="C_man_1";
+					leader=1;
+					skill=0.60000002;
+				};
+			};
+		};
+		class Item11
+		{
+			side="CIV";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={4952.6328,202.27783,6907.895};
+					azimut=-91.174301;
+					offsetY=1;
+					id=11;
+					side="CIV";
+					vehicle="C_man_1";
+					player="PLAY CDG";
+					leader=1;
+					skill=0.60000002;
+				};
+			};
+		};
+		class Item12
+		{
+			side="CIV";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={4952.5698,202.27783,6906.2485};
+					azimut=-91.174301;
+					offsetY=1;
+					id=12;
+					side="CIV";
+					vehicle="C_man_1";
+					player="PLAY CDG";
+					leader=1;
+					skill=0.60000002;
+				};
+			};
+		};
+		class Item13
+		{
+			side="CIV";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={4952.7861,202.27783,6905.0161};
+					azimut=-91.174301;
+					offsetY=1;
+					id=13;
+					side="CIV";
+					vehicle="C_man_1";
+					player="PLAY CDG";
+					leader=1;
+					skill=0.60000002;
+				};
+			};
+		};
+		class Item14
+		{
+			side="CIV";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={4914.5459,202.27783,6966.0562};
+					azimut=-114.06522;
+					offsetY=1;
+					id=14;
+					side="CIV";
+					vehicle="C_man_1";
+					leader=1;
+					skill=0.60000002;
+				};
+			};
+		};
+		class Item15
+		{
+			side="CIV";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={4876.022,37.468109,11896.021};
+					azimut=-175.45302;
+					offsetY=1;
+					id=15;
+					side="CIV";
+					vehicle="C_man_1";
+					leader=1;
+					skill=0.60000002;
+				};
+			};
+		};
+		class Item16
+		{
+			side="CIV";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={4831.4854,202.27783,7078.4995};
+					azimut=283.30048;
+					offsetY=1;
+					id=16;
+					side="CIV";
+					vehicle="C_man_1";
+					player="PLAYER COMMANDER";
+					leader=1;
+					skill=0.60000002;
+				};
+			};
+		};
+	};
+	class Vehicles
+	{
+		items=235;
+		class Item0
+		{
+			position[]={4906.6025,202.27783,6928.7314};
+			azimut=-33.440701;
+			offsetY=1;
+			id=17;
+			side="EMPTY";
+			vehicle="Land_TableDesk_F";
+			skill=0.60000002;
+			text="ATM";
+			init="this addAction [""ATM"", ""Shops\ATM\atmmenu.sqf""];";
+		};
+		class Item1
+		{
+			position[]={4929.6167,202.27783,6905.6387};
+			azimut=239.157;
+			offsetY=1;
+			id=18;
+			side="EMPTY";
+			vehicle="Land_TableDesk_F";
+			skill=0.60000002;
+			text="ATM_1";
+			init="this addAction [""Clothing Store"", ""Shops\clothingshop\shopmenu.sqf""];";
+		};
+		class Item2
+		{
+			position[]={4824.1421,202.27783,7079.7515};
+			azimut=-120.243;
+			offsetY=1;
+			id=19;
+			side="EMPTY";
+			vehicle="Land_TableDesk_F";
+			skill=0.60000002;
+			text="ATM_2";
+			init="this addAction [""Car Dealership"", ""Shops\carshop\shopmenu.sqf""];";
+		};
+		class Item3
+		{
+			position[]={4900.8403,202.27783,6954.1597};
+			azimut=243.89169;
+			offsetY=1;
+			id=20;
+			side="EMPTY";
+			vehicle="Land_TableDesk_F";
+			skill=0.60000002;
+			text="ATM_1_1";
+			init="this addAction [""DMV"", ""shops\dmv\shopmenu.sqf""];";
+		};
+		class Item4
+		{
+			position[]={4864.2896,202.27783,6961.1978};
+			azimut=-115.557;
+			offsetY=1;
+			id=21;
+			side="EMPTY";
+			vehicle="Land_TableDesk_F";
+			skill=0.60000002;
+			text="ATM_1_2";
+			init="this addAction [""Market"", ""Shops\marketshop\shopmenu.sqf""];";
+		};
+		class Item5
+		{
+			position[]={9563.6025,285.86935,2977.627};
+			azimut=-2.6840899;
+			offsetY=1;
+			id=22;
+			side="EMPTY";
+			vehicle="Land_TableDesk_F";
+			skill=0.60000002;
+			text="shop1";
+			init="this addAction [""Sell Cannabis"", ""cannabissell.sqf""];";
+		};
+		class Item6
+		{
+			position[]={4935.7617,44.638916,9053.4023};
+			azimut=36.7393;
+			offsetY=1;
+			id=23;
+			side="EMPTY";
+			vehicle="Land_TableDesk_F";
+			skill=0.60000002;
+			text="ATM_2_1";
+			init="this addAction [""Process Cannabis"", ""cannabisprocess.sqf""];";
+		};
+		class Item7
+		{
+			position[]={5699.229,18.362928,3445.259};
+			azimut=-91.103043;
+			offsetY=1;
+			id=24;
+			side="EMPTY";
+			vehicle="Land_TableDesk_F";
+			skill=0.60000002;
+			text="shop1_1";
+			init="this addAction [""Sell Heroin"", ""heroinsell.sqf""];";
+		};
+		class Item8
+		{
+			position[]={5546.7202,35.661606,10213.538};
+			azimut=186.521;
+			offsetY=1;
+			id=25;
+			side="EMPTY";
+			vehicle="Land_TableDesk_F";
+			skill=0.60000002;
+			text="ATM_2_1_1";
+			init="this addAction [""Process Heroin"", ""Heroinprocess.sqf""];";
+		};
+		class Item9
+		{
+			position[]={5524.5894,104.34757,6066.6802};
+			azimut=216.05283;
+			offsetY=1;
+			id=26;
+			side="EMPTY";
+			vehicle="Land_TableDesk_F";
+			skill=0.60000002;
+			text="ATM_1_3";
+			init="this addAction [""Weapon Trader"", ""Shops\weaponshop\shopmenu.sqf""];";
+		};
+		class Item10
+		{
+			position[]={4850.3462,37.468109,11788.181};
+			azimut=-91.174301;
+			offsetY=1;
+			id=27;
+			side="EMPTY";
+			vehicle="Land_TableDesk_F";
+			skill=0.60000002;
+			text="ATM_2_2";
+			init="this addAction [""Plane/Helicopter Dealership"", ""Shops\airshop\shopmenu.sqf""];";
+		};
+		class Item11
+		{
+			position[]={4913.7549,202.27783,6965.7017};
+			azimut=61.270802;
+			offsetY=1;
+			id=28;
+			side="EMPTY";
+			vehicle="Land_TableDesk_F";
+			skill=0.60000002;
+			text="ATM_2_3";
+			init="this addAction [""Bike Shop"", ""Shops\bikeshop\shopmenu.sqf""];";
+		};
+		class Item12
+		{
+			position[]={7458.7085,0.44033974,6888.5459};
+			azimut=84.822639;
+			id=29;
+			side="EMPTY";
+			vehicle="SeaFox_EP1";
+			skill=0.60000002;
+		};
+		class Item13
+		{
+			position[]={7448.9722,0.068790279,6918.2388};
+			azimut=137.63443;
+			id=30;
+			side="EMPTY";
+			vehicle="C_Rubberboat";
+			skill=0.60000002;
+		};
+		class Item14
+		{
+			position[]={4876.0654,37.468109,11895.12};
+			azimut=-0.117043;
+			offsetY=1;
+			id=31;
+			side="EMPTY";
+			vehicle="Land_TableDesk_F";
+			skill=0.60000002;
+			text="ATM_3";
+			init="this addAction [""ATM"", ""Shops\ATM\atmmenu.sqf""];";
+		};
+		class Item15
+		{
+			position[]={4555.9688,126.97195,6499.7681};
+			azimut=57.408501;
+			id=32;
+			side="EMPTY";
+			vehicle="Ficus_1";
+			skill=0.60000002;
+			init="this addAction [""Gather Apples"", ""activities\applegather.sqf""];";
+		};
+		class Item16
+		{
+			position[]={4563.8115,146.32826,7540.6143};
+			azimut=143.254;
+			id=33;
+			side="EMPTY";
+			vehicle="Ficus_1";
+			skill=0.60000002;
+			init="this addAction [""Gather Peaches"", ""activities\peechGather.sqf""];";
+		};
+		class Item17
+		{
+			position[]={4568.6904,147.94278,7534.938};
+			azimut=74.569679;
+			id=34;
+			side="EMPTY";
+			vehicle="Ficus_1";
+			skill=0.60000002;
+			init="this addAction [""Gather Peaches"", ""activities\peechGather.sqf""];";
+		};
+		class Item18
+		{
+			position[]={4571.5288,149.87566,7521.6948};
+			azimut=168.74693;
+			id=35;
+			side="EMPTY";
+			vehicle="Ficus_1";
+			skill=0.60000002;
+			init="this addAction [""Gather Peaches"", ""activities\peechGather.sqf""];";
+		};
+		class Item19
+		{
+			position[]={4575.9595,149.89586,7528.8657};
+			azimut=219.25623;
+			id=36;
+			side="EMPTY";
+			vehicle="Ficus_1";
+			skill=0.60000002;
+			init="this addAction [""Gather Peaches"", ""activities\peechGather.sqf""];";
+		};
+		class Item20
+		{
+			position[]={4575.562,148.63936,7540.6143};
+			azimut=52.083538;
+			id=37;
+			side="EMPTY";
+			vehicle="Ficus_1";
+			skill=0.60000002;
+			init="this addAction [""Gather Peaches"", ""activities\peechGather.sqf""];";
+		};
+		class Item21
+		{
+			position[]={4580.7397,150.04604,7536.1323};
+			azimut=112.97072;
+			id=38;
+			side="EMPTY";
+			vehicle="Ficus_1";
+			skill=0.60000002;
+			init="this addAction [""Gather Peaches"", ""activities\peechGather.sqf""];";
+		};
+		class Item22
+		{
+			position[]={4581.5869,151.19247,7526.1758};
+			azimut=107.50662;
+			id=39;
+			side="EMPTY";
+			vehicle="Ficus_1";
+			skill=0.60000002;
+			init="this addAction [""Gather Peaches"", ""activities\peechGather.sqf""];";
+		};
+		class Item23
+		{
+			position[]={4561.0732,147.00117,7528.5649};
+			azimut=188.8696;
+			id=40;
+			side="EMPTY";
+			vehicle="Ficus_1";
+			skill=0.60000002;
+			init="this addAction [""Gather Peaches"", ""activities\peechGather.sqf""];";
+		};
+		class Item24
+		{
+			position[]={4547.3433,145.30899,7518.3145};
+			azimut=143.254;
+			id=41;
+			side="EMPTY";
+			vehicle="Ficus_1";
+			skill=0.60000002;
+			init="this addAction [""Gather Peaches"", ""activities\peechGather.sqf""];";
+		};
+		class Item25
+		{
+			position[]={4552.2222,147.12997,7512.6382};
+			azimut=74.569679;
+			id=42;
+			side="EMPTY";
+			vehicle="Ficus_1";
+			skill=0.60000002;
+			init="this addAction [""Gather Peaches"", ""activities\peechGather.sqf""];";
+		};
+		class Item26
+		{
+			position[]={4555.0605,149.48817,7499.395};
+			azimut=168.74693;
+			id=43;
+			side="EMPTY";
+			vehicle="Ficus_1";
+			skill=0.60000002;
+			init="this addAction [""Gather Peaches"", ""activities\peechGather.sqf""];";
+		};
+		class Item27
+		{
+			position[]={4559.4912,149.42699,7506.5659};
+			azimut=219.25623;
+			id=44;
+			side="EMPTY";
+			vehicle="Ficus_1";
+			skill=0.60000002;
+			init="this addAction [""Gather Peaches"", ""activities\peechGather.sqf""];";
+		};
+		class Item28
+		{
+			position[]={4559.0938,147.81595,7518.3145};
+			azimut=52.083538;
+			id=45;
+			side="EMPTY";
+			vehicle="Ficus_1";
+			skill=0.60000002;
+			init="this addAction [""Gather Peaches"", ""activities\peechGather.sqf""];";
+		};
+		class Item29
+		{
+			position[]={4564.2715,149.54092,7513.8325};
+			azimut=112.97072;
+			id=46;
+			side="EMPTY";
+			vehicle="Ficus_1";
+			skill=0.60000002;
+			init="this addAction [""Gather Peaches"", ""activities\peechGather.sqf""];";
+		};
+		class Item30
+		{
+			position[]={4565.1187,150.95532,7503.876};
+			azimut=107.50662;
+			id=47;
+			side="EMPTY";
+			vehicle="Ficus_1";
+			skill=0.60000002;
+			init="this addAction [""Gather Peaches"", ""activities\peechGather.sqf""];";
+		};
+		class Item31
+		{
+			position[]={4544.605,146.20743,7506.2651};
+			azimut=188.8696;
+			id=48;
+			side="EMPTY";
+			vehicle="Ficus_1";
+			skill=0.60000002;
+			init="this addAction [""Gather Peaches"", ""activities\peechGather.sqf""];";
+		};
+		class Item32
+		{
+			position[]={4536.7056,139.64052,7546.0347};
+			azimut=143.254;
+			id=49;
+			side="EMPTY";
+			vehicle="Ficus_1";
+			skill=0.60000002;
+			init="this addAction [""Gather Peaches"", ""activities\peechGather.sqf""];";
+		};
+		class Item33
+		{
+			position[]={4541.5845,141.44041,7540.3584};
+			azimut=74.569679;
+			id=50;
+			side="EMPTY";
+			vehicle="Ficus_1";
+			skill=0.60000002;
+			init="this addAction [""Gather Peaches"", ""activities\peechGather.sqf""];";
+		};
+		class Item34
+		{
+			position[]={4544.4229,143.51851,7527.1152};
+			azimut=168.74693;
+			id=51;
+			side="EMPTY";
+			vehicle="Ficus_1";
+			skill=0.60000002;
+			init="this addAction [""Gather Peaches"", ""activities\peechGather.sqf""];";
+		};
+		class Item35
+		{
+			position[]={4548.8535,143.78938,7534.2861};
+			azimut=219.25623;
+			id=52;
+			side="EMPTY";
+			vehicle="Ficus_1";
+			skill=0.60000002;
+			init="this addAction [""Gather Peaches"", ""activities\peechGather.sqf""];";
+		};
+		class Item36
+		{
+			position[]={4548.4561,142.44124,7546.0347};
+			azimut=52.083538;
+			id=53;
+			side="EMPTY";
+			vehicle="Ficus_1";
+			skill=0.60000002;
+			init="this addAction [""Gather Peaches"", ""activities\peechGather.sqf""];";
+		};
+		class Item37
+		{
+			position[]={4553.6338,144.05257,7541.5527};
+			azimut=112.97072;
+			id=54;
+			side="EMPTY";
+			vehicle="Ficus_1";
+			skill=0.60000002;
+			init="this addAction [""Gather Peaches"", ""activities\peechGather.sqf""];";
+		};
+		class Item38
+		{
+			position[]={4554.481,145.29605,7531.5962};
+			azimut=107.50662;
+			id=55;
+			side="EMPTY";
+			vehicle="Ficus_1";
+			skill=0.60000002;
+			init="this addAction [""Gather Peaches"", ""activities\peechGather.sqf""];";
+		};
+		class Item39
+		{
+			position[]={4533.9673,140.31335,7533.9854};
+			azimut=188.8696;
+			id=56;
+			side="EMPTY";
+			vehicle="Ficus_1";
+			skill=0.60000002;
+			init="this addAction [""Gather Peaches"", ""activities\peechGather.sqf""];";
+		};
+		class Item40
+		{
+			position[]={4559.7197,142.9924,7566.2896};
+			azimut=143.254;
+			id=57;
+			side="EMPTY";
+			vehicle="Ficus_1";
+			skill=0.60000002;
+			init="this addAction [""Gather Peaches"", ""activities\peechGather.sqf""];";
+		};
+		class Item41
+		{
+			position[]={4564.5986,144.58766,7560.6133};
+			azimut=74.569679;
+			id=58;
+			side="EMPTY";
+			vehicle="Ficus_1";
+			skill=0.60000002;
+			init="this addAction [""Gather Peaches"", ""activities\peechGather.sqf""];";
+		};
+		class Item42
+		{
+			position[]={4567.437,146.39992,7547.3701};
+			azimut=168.74693;
+			id=59;
+			side="EMPTY";
+			vehicle="Ficus_1";
+			skill=0.60000002;
+			init="this addAction [""Gather Peaches"", ""activities\peechGather.sqf""];";
+		};
+		class Item43
+		{
+			position[]={4571.8677,146.59282,7554.541};
+			azimut=219.25623;
+			id=60;
+			side="EMPTY";
+			vehicle="Ficus_1";
+			skill=0.60000002;
+			init="this addAction [""Gather Peaches"", ""activities\peechGather.sqf""];";
+		};
+		class Item44
+		{
+			position[]={4571.4702,145.37279,7566.2896};
+			azimut=52.083538;
+			id=61;
+			side="EMPTY";
+			vehicle="Ficus_1";
+			skill=0.60000002;
+			init="this addAction [""Gather Peaches"", ""activities\peechGather.sqf""];";
+		};
+		class Item45
+		{
+			position[]={4576.6479,146.81776,7561.8076};
+			azimut=112.97072;
+			id=62;
+			side="EMPTY";
+			vehicle="Ficus_1";
+			skill=0.60000002;
+			init="this addAction [""Gather Peaches"", ""activities\peechGather.sqf""];";
+		};
+		class Item46
+		{
+			position[]={4577.4951,147.91528,7551.8511};
+			azimut=107.50662;
+			id=63;
+			side="EMPTY";
+			vehicle="Ficus_1";
+			skill=0.60000002;
+			init="this addAction [""Gather Peaches"", ""activities\peechGather.sqf""];";
+		};
+		class Item47
+		{
+			position[]={4556.9814,143.56929,7554.2402};
+			azimut=188.8696;
+			id=64;
+			side="EMPTY";
+			vehicle="Ficus_1";
+			skill=0.60000002;
+			init="this addAction [""Gather Peaches"", ""activities\peechGather.sqf""];";
+		};
+		class Item48
+		{
+			position[]={4587.2363,149.27289,7554.7295};
+			azimut=143.254;
+			id=65;
+			side="EMPTY";
+			vehicle="Ficus_1";
+			skill=0.60000002;
+			init="this addAction [""Gather Peaches"", ""activities\peechGather.sqf""];";
+		};
+		class Item49
+		{
+			position[]={4592.1152,150.61552,7549.0532};
+			azimut=74.569679;
+			id=66;
+			side="EMPTY";
+			vehicle="Ficus_1";
+			skill=0.60000002;
+			init="this addAction [""Gather Peaches"", ""activities\peechGather.sqf""];";
+		};
+		class Item50
+		{
+			position[]={4594.9536,152.38707,7535.8101};
+			azimut=168.74693;
+			id=67;
+			side="EMPTY";
+			vehicle="Ficus_1";
+			skill=0.60000002;
+			init="this addAction [""Gather Peaches"", ""activities\peechGather.sqf""];";
+		};
+		class Item51
+		{
+			position[]={4599.3843,152.29211,7542.981};
+			azimut=219.25623;
+			id=68;
+			side="EMPTY";
+			vehicle="Ficus_1";
+			skill=0.60000002;
+			init="this addAction [""Gather Peaches"", ""activities\peechGather.sqf""];";
+		};
+		class Item52
+		{
+			position[]={4598.9868,151.0704,7554.7295};
+			azimut=52.083538;
+			id=69;
+			side="EMPTY";
+			vehicle="Ficus_1";
+			skill=0.60000002;
+			init="this addAction [""Gather Peaches"", ""activities\peechGather.sqf""];";
+		};
+		class Item53
+		{
+			position[]={4604.1646,152.2169,7550.2476};
+			azimut=112.97072;
+			id=70;
+			side="EMPTY";
+			vehicle="Ficus_1";
+			skill=0.60000002;
+			init="this addAction [""Gather Peaches"", ""activities\peechGather.sqf""];";
+		};
+		class Item54
+		{
+			position[]={4605.0117,153.36624,7540.291};
+			azimut=107.50662;
+			id=71;
+			side="EMPTY";
+			vehicle="Ficus_1";
+			skill=0.60000002;
+			init="this addAction [""Gather Peaches"", ""activities\peechGather.sqf""];";
+		};
+		class Item55
+		{
+			position[]={4584.498,149.95981,7542.6802};
+			azimut=188.8696;
+			id=72;
+			side="EMPTY";
+			vehicle="Ficus_1";
+			skill=0.60000002;
+			init="this addAction [""Gather Peaches"", ""activities\peechGather.sqf""];";
+		};
+		class Item56
+		{
+			position[]={4592.3506,153.14659,7525.5776};
+			azimut=143.254;
+			id=73;
+			side="EMPTY";
+			vehicle="Ficus_1";
+			skill=0.60000002;
+			init="this addAction [""Gather Peaches"", ""activities\peechGather.sqf""];";
+		};
+		class Item57
+		{
+			position[]={4597.2295,154.53021,7519.9014};
+			azimut=74.569679;
+			id=74;
+			side="EMPTY";
+			vehicle="Ficus_1";
+			skill=0.60000002;
+			init="this addAction [""Gather Peaches"", ""activities\peechGather.sqf""];";
+		};
+		class Item58
+		{
+			position[]={4600.0679,156.47937,7506.6582};
+			azimut=168.74693;
+			id=75;
+			side="EMPTY";
+			vehicle="Ficus_1";
+			skill=0.60000002;
+			init="this addAction [""Gather Peaches"", ""activities\peechGather.sqf""];";
+		};
+		class Item59
+		{
+			position[]={4604.4985,156.29745,7513.8291};
+			azimut=219.25623;
+			id=76;
+			side="EMPTY";
+			vehicle="Ficus_1";
+			skill=0.60000002;
+			init="this addAction [""Gather Peaches"", ""activities\peechGather.sqf""];";
+		};
+		class Item60
+		{
+			position[]={4604.1011,154.83882,7525.5776};
+			azimut=52.083538;
+			id=77;
+			side="EMPTY";
+			vehicle="Ficus_1";
+			skill=0.60000002;
+			init="this addAction [""Gather Peaches"", ""activities\peechGather.sqf""];";
+		};
+		class Item61
+		{
+			position[]={4609.2788,156.06454,7521.0957};
+			azimut=112.97072;
+			id=78;
+			side="EMPTY";
+			vehicle="Ficus_1";
+			skill=0.60000002;
+			init="this addAction [""Gather Peaches"", ""activities\peechGather.sqf""];";
+		};
+		class Item62
+		{
+			position[]={4610.126,157.34251,7511.1392};
+			azimut=107.50662;
+			id=79;
+			side="EMPTY";
+			vehicle="Ficus_1";
+			skill=0.60000002;
+			init="this addAction [""Gather Peaches"", ""activities\peechGather.sqf""];";
+		};
+		class Item63
+		{
+			position[]={4589.6123,154.0649,7513.5283};
+			azimut=188.8696;
+			id=80;
+			side="EMPTY";
+			vehicle="Ficus_1";
+			skill=0.60000002;
+			init="this addAction [""Gather Peaches"", ""activities\peechGather.sqf""];";
+		};
+		class Item64
+		{
+			position[]={4575.2686,152.47801,7506.7554};
+			azimut=143.254;
+			id=81;
+			side="EMPTY";
+			vehicle="Ficus_1";
+			skill=0.60000002;
+			init="this addAction [""Gather Peaches"", ""activities\peechGather.sqf""];";
+		};
+		class Item65
+		{
+			position[]={4580.1475,154.07845,7501.0791};
+			azimut=74.569679;
+			id=82;
+			side="EMPTY";
+			vehicle="Ficus_1";
+			skill=0.60000002;
+			init="this addAction [""Gather Peaches"", ""activities\peechGather.sqf""];";
+		};
+		class Item66
+		{
+			position[]={4582.9858,156.28131,7487.8359};
+			azimut=168.74693;
+			id=83;
+			side="EMPTY";
+			vehicle="Ficus_1";
+			skill=0.60000002;
+			init="this addAction [""Gather Peaches"", ""activities\peechGather.sqf""];";
+		};
+		class Item67
+		{
+			position[]={4587.4165,156.05679,7495.0068};
+			azimut=219.25623;
+			id=84;
+			side="EMPTY";
+			vehicle="Ficus_1";
+			skill=0.60000002;
+			init="this addAction [""Gather Peaches"", ""activities\peechGather.sqf""];";
+		};
+		class Item68
+		{
+			position[]={4587.019,154.37158,7506.7554};
+			azimut=52.083538;
+			id=85;
+			side="EMPTY";
+			vehicle="Ficus_1";
+			skill=0.60000002;
+			init="this addAction [""Gather Peaches"", ""activities\peechGather.sqf""];";
+		};
+		class Item69
+		{
+			position[]={4592.1968,155.83926,7502.2734};
+			azimut=112.97072;
+			id=86;
+			side="EMPTY";
+			vehicle="Ficus_1";
+			skill=0.60000002;
+			init="this addAction [""Gather Peaches"", ""activities\peechGather.sqf""];";
+		};
+		class Item70
+		{
+			position[]={4593.0439,157.26682,7492.3169};
+			azimut=107.50662;
+			id=87;
+			side="EMPTY";
+			vehicle="Ficus_1";
+			skill=0.60000002;
+			init="this addAction [""Gather Peaches"", ""activities\peechGather.sqf""];";
+		};
+		class Item71
+		{
+			position[]={4572.5303,153.65669,7494.7061};
+			azimut=188.8696;
+			id=88;
+			side="EMPTY";
+			vehicle="Ficus_1";
+			skill=0.60000002;
+			init="this addAction [""Gather Peaches"", ""activities\peechGather.sqf""];";
+		};
+		class Item72
+		{
+			position[]={4568.3975,129.23947,6511.29};
+			azimut=57.408501;
+			id=89;
+			side="EMPTY";
+			vehicle="Ficus_1";
+			skill=0.60000002;
+			init="this addAction [""Gather Apples"", ""activities\applegather.sqf""];";
+		};
+		class Item73
+		{
+			position[]={4586.2202,130.02425,6501.9321};
+			azimut=200.05923;
+			id=90;
+			side="EMPTY";
+			vehicle="Ficus_1";
+			skill=0.60000002;
+			init="this addAction [""Gather Apples"", ""activities\applegather.sqf""];";
+		};
+		class Item74
+		{
+			position[]={4575.6196,127.9178,6501.1216};
+			azimut=-66.559158;
+			id=91;
+			side="EMPTY";
+			vehicle="Ficus_1";
+			skill=0.60000002;
+			init="this addAction [""Gather Apples"", ""activities\applegather.sqf""];";
+		};
+		class Item75
+		{
+			position[]={4567.5303,125.77695,6494.4658};
+			azimut=-42.545479;
+			id=92;
+			side="EMPTY";
+			vehicle="Ficus_1";
+			skill=0.60000002;
+			init="this addAction [""Gather Apples"", ""activities\applegather.sqf""];";
+		};
+		class Item76
+		{
+			position[]={4565.5854,123.1247,6482.168};
+			azimut=122.8177;
+			id=93;
+			side="EMPTY";
+			vehicle="Ficus_1";
+			skill=0.60000002;
+			init="this addAction [""Gather Apples"", ""activities\applegather.sqf""];";
+		};
+		class Item77
+		{
+			position[]={4556.3315,125.11275,6489.7891};
+			azimut=62.541958;
+			id=94;
+			side="EMPTY";
+			vehicle="Ficus_1";
+			skill=0.60000002;
+			init="this addAction [""Gather Apples"", ""activities\applegather.sqf""];";
+		};
+		class Item78
+		{
+			position[]={4556.1641,132.26016,6526.416};
+			azimut=200.05923;
+			id=95;
+			side="EMPTY";
+			vehicle="Ficus_1";
+			skill=0.60000002;
+			init="this addAction [""Gather Apples"", ""activities\applegather.sqf""];";
+		};
+		class Item79
+		{
+			position[]={4545.5635,132.61841,6525.6055};
+			azimut=-66.559158;
+			id=96;
+			side="EMPTY";
+			vehicle="Ficus_1";
+			skill=0.60000002;
+			init="this addAction [""Gather Apples"", ""activities\applegather.sqf""];";
+		};
+		class Item80
+		{
+			position[]={4548.2769,129.6761,6511.0625};
+			azimut=29.36516;
+			id=97;
+			side="EMPTY";
+			vehicle="Ficus_1";
+			skill=0.60000002;
+			init="this addAction [""Gather Apples"", ""activities\applegather.sqf""];";
+		};
+		class Item81
+		{
+			position[]={4537.4741,132.18727,6518.9497};
+			azimut=-42.545479;
+			id=98;
+			side="EMPTY";
+			vehicle="Ficus_1";
+			skill=0.60000002;
+			init="this addAction [""Gather Apples"", ""activities\applegather.sqf""];";
+		};
+		class Item82
+		{
+			position[]={4535.5293,130.44704,6506.6519};
+			azimut=122.8177;
+			id=99;
+			side="EMPTY";
+			vehicle="Ficus_1";
+			skill=0.60000002;
+			init="this addAction [""Gather Apples"", ""activities\applegather.sqf""];";
+		};
+		class Item83
+		{
+			position[]={4526.2754,132.79019,6514.2729};
+			azimut=62.541958;
+			id=100;
+			side="EMPTY";
+			vehicle="Ficus_1";
+			skill=0.60000002;
+			init="this addAction [""Gather Apples"", ""activities\applegather.sqf""];";
+		};
+		class Item84
+		{
+			position[]={4542.3296,127.94608,6496.7139};
+			azimut=529.29425;
+			id=101;
+			side="EMPTY";
+			vehicle="Ficus_1";
+			skill=0.60000002;
+			init="this addAction [""Gather Apples"", ""activities\applegather.sqf""];";
+		};
+		class Item85
+		{
+			position[]={4533.6348,128.28041,6490.5923};
+			azimut=262.67603;
+			id=102;
+			side="EMPTY";
+			vehicle="Ficus_1";
+			skill=0.60000002;
+			init="this addAction [""Gather Apples"", ""activities\applegather.sqf""];";
+		};
+		class Item86
+		{
+			position[]={4543.4009,124.99906,6479.4844};
+			azimut=358.60028;
+			id=103;
+			side="EMPTY";
+			vehicle="Ficus_1";
+			skill=0.60000002;
+			init="this addAction [""Gather Apples"", ""activities\applegather.sqf""];";
+		};
+		class Item87
+		{
+			position[]={4530.085,127.21376,6480.7383};
+			azimut=286.68976;
+			id=104;
+			side="EMPTY";
+			vehicle="Ficus_1";
+			skill=0.60000002;
+			init="this addAction [""Gather Apples"", ""activities\applegather.sqf""];";
+		};
+		class Item88
+		{
+			position[]={4534.708,124.34695,6469.1777};
+			azimut=452.0528;
+			id=105;
+			side="EMPTY";
+			vehicle="Ficus_1";
+			skill=0.60000002;
+			init="this addAction [""Gather Apples"", ""activities\applegather.sqf""];";
+		};
+		class Item89
+		{
+			position[]={4570.1904,135.82266,6538.3276};
+			azimut=57.408501;
+			id=106;
+			side="EMPTY";
+			vehicle="Ficus_1";
+			skill=0.60000002;
+			init="this addAction [""Gather Apples"", ""activities\applegather.sqf""];";
+		};
+		class Item90
+		{
+			position[]={4600.4419,142.14488,6540.4917};
+			azimut=200.05923;
+			id=107;
+			side="EMPTY";
+			vehicle="Ficus_1";
+			skill=0.60000002;
+			init="this addAction [""Gather Apples"", ""activities\applegather.sqf""];";
+		};
+		class Item91
+		{
+			position[]={4589.8413,139.52905,6539.6812};
+			azimut=-66.559158;
+			id=108;
+			side="EMPTY";
+			vehicle="Ficus_1";
+			skill=0.60000002;
+			init="this addAction [""Gather Apples"", ""activities\applegather.sqf""];";
+		};
+		class Item92
+		{
+			position[]={4592.5547,136.39513,6525.1382};
+			azimut=29.36516;
+			id=109;
+			side="EMPTY";
+			vehicle="Ficus_1";
+			skill=0.60000002;
+			init="this addAction [""Gather Apples"", ""activities\applegather.sqf""];";
+		};
+		class Item93
+		{
+			position[]={4581.752,136.08266,6533.0254};
+			azimut=-42.545479;
+			id=110;
+			side="EMPTY";
+			vehicle="Ficus_1";
+			skill=0.60000002;
+			init="this addAction [""Gather Apples"", ""activities\applegather.sqf""];";
+		};
+		class Item94
+		{
+			position[]={4579.8071,132.66545,6520.7275};
+			azimut=122.8177;
+			id=111;
+			side="EMPTY";
+			vehicle="Ficus_1";
+			skill=0.60000002;
+			init="this addAction [""Gather Apples"", ""activities\applegather.sqf""];";
+		};
+		class Item95
+		{
+			position[]={4570.5532,133.25716,6528.3486};
+			azimut=62.541958;
+			id=112;
+			side="EMPTY";
+			vehicle="Ficus_1";
+			skill=0.60000002;
+			init="this addAction [""Gather Apples"", ""activities\applegather.sqf""];";
+		};
+		class Item96
+		{
+			position[]={4557.6963,122.16087,6475.3662};
+			azimut=106.85424;
+			id=113;
+			side="EMPTY";
+			vehicle="Ficus_1";
+			skill=0.60000002;
+			init="this addAction [""Gather Apples"", ""activities\applegather.sqf""];";
+		};
+		class Item97
+		{
+			position[]={4574.5308,121.37144,6473.4136};
+			azimut=106.85424;
+			id=114;
+			side="EMPTY";
+			vehicle="Ficus_1";
+			skill=0.60000002;
+			init="this addAction [""Gather Apples"", ""activities\applegather.sqf""];";
+		};
+		class Item98
+		{
+			position[]={4579.0093,117.63822,6453.7876};
+			azimut=249.50502;
+			id=115;
+			side="EMPTY";
+			vehicle="Ficus_1";
+			skill=0.60000002;
+			init="this addAction [""Gather Apples"", ""activities\applegather.sqf""];";
+		};
+		class Item99
+		{
+			position[]={4571.502,118.69794,6461.3154};
+			azimut=-17.1134;
+			id=116;
+			side="EMPTY";
+			vehicle="Ficus_1";
+			skill=0.60000002;
+			init="this addAction [""Gather Apples"", ""activities\applegather.sqf""];";
+		};
+		class Item100
+		{
+			position[]={4562.2163,116.46277,6449.7988};
+			azimut=78.810921;
+			id=117;
+			side="EMPTY";
+			vehicle="Ficus_1";
+			skill=0.60000002;
+			init="this addAction [""Gather Apples"", ""activities\applegather.sqf""];";
+		};
+		class Item101
+		{
+			position[]={4561.1846,119.42164,6463.1338};
+			azimut=6.9002686;
+			id=118;
+			side="EMPTY";
+			vehicle="Ficus_1";
+			skill=0.60000002;
+			init="this addAction [""Gather Apples"", ""activities\applegather.sqf""];";
+		};
+		class Item102
+		{
+			position[]={4550.5776,119.2526,6456.6162};
+			azimut=172.26347;
+			id=119;
+			side="EMPTY";
+			vehicle="Ficus_1";
+			skill=0.60000002;
+			init="this addAction [""Gather Apples"", ""activities\applegather.sqf""];";
+		};
+		class Item103
+		{
+			position[]={4550.3511,121.93775,6468.6016};
+			azimut=111.9877;
+			id=120;
+			side="EMPTY";
+			vehicle="Ficus_1";
+			skill=0.60000002;
+			init="this addAction [""Gather Apples"", ""activities\applegather.sqf""];";
+		};
+		class Item104
+		{
+			position[]={4591.9233,128.65244,6490.7305};
+			azimut=78.147293;
+			id=121;
+			side="EMPTY";
+			vehicle="Ficus_1";
+			skill=0.60000002;
+			init="this addAction [""Gather Apples"", ""activities\applegather.sqf""];";
+		};
+		class Item105
+		{
+			position[]={4607.6284,134.04243,6497.1025};
+			azimut=78.147293;
+			id=122;
+			side="EMPTY";
+			vehicle="Ficus_1";
+			skill=0.60000002;
+			init="this addAction [""Gather Apples"", ""activities\applegather.sqf""];";
+		};
+		class Item106
+		{
+			position[]={4620.9829,133.24335,6482.043};
+			azimut=220.798;
+			id=123;
+			side="EMPTY";
+			vehicle="Ficus_1";
+			skill=0.60000002;
+			init="this addAction [""Gather Apples"", ""activities\applegather.sqf""];";
+		};
+		class Item107
+		{
+			position[]={4610.7822,131.95302,6485.0371};
+			azimut=-45.820374;
+			id=124;
+			side="EMPTY";
+			vehicle="Ficus_1";
+			skill=0.60000002;
+			init="this addAction [""Gather Apples"", ""activities\applegather.sqf""];";
+		};
+		class Item108
+		{
+			position[]={4608.1694,127.85272,6470.4761};
+			azimut=50.103947;
+			id=125;
+			side="EMPTY";
+			vehicle="Ficus_1";
+			skill=0.60000002;
+			init="this addAction [""Gather Apples"", ""activities\applegather.sqf""];";
+		};
+		class Item109
+		{
+			position[]={4600.8599,128.75348,6481.6763};
+			azimut=-21.806686;
+			id=126;
+			side="EMPTY";
+			vehicle="Ficus_1";
+			skill=0.60000002;
+			init="this addAction [""Gather Apples"", ""activities\applegather.sqf""];";
+		};
+		class Item110
+		{
+			position[]={4594.6855,124.48251,6470.8643};
+			azimut=143.55646;
+			id=127;
+			side="EMPTY";
+			vehicle="Ficus_1";
+			skill=0.60000002;
+			init="this addAction [""Gather Apples"", ""activities\applegather.sqf""];";
+		};
+		class Item111
+		{
+			position[]={4588.729,125.48057,6481.2676};
+			azimut=83.280739;
+			id=128;
+			side="EMPTY";
+			vehicle="Ficus_1";
+			skill=0.60000002;
+			init="this addAction [""Gather Apples"", ""activities\applegather.sqf""];";
+		};
+		class Item112
+		{
+			position[]={4598.5088,135.1071,6512.2754};
+			azimut=381.0314;
+			id=129;
+			side="EMPTY";
+			vehicle="Ficus_1";
+			skill=0.60000002;
+			init="this addAction [""Gather Apples"", ""activities\applegather.sqf""];";
+		};
+		class Item113
+		{
+			position[]={4606.6548,140.19838,6527.4902};
+			azimut=210.33733;
+			id=130;
+			side="EMPTY";
+			vehicle="Ficus_1";
+			skill=0.60000002;
+			init="this addAction [""Gather Apples"", ""activities\applegather.sqf""];";
+		};
+		class Item114
+		{
+			position[]={9716.1543,305.0058,2729.585};
+			azimut=57.408501;
+			id=131;
+			side="EMPTY";
+			vehicle="Ficus_1";
+			skill=0.60000002;
+			init="this addAction [""Gather Apples"", ""activities\applegather.sqf""];";
+		};
+		class Item115
+		{
+			position[]={9728.584,306.31296,2741.1069};
+			azimut=57.408501;
+			id=132;
+			side="EMPTY";
+			vehicle="Ficus_1";
+			skill=0.60000002;
+			init="this addAction [""Gather Apples"", ""activities\applegather.sqf""];";
+		};
+		class Item116
+		{
+			position[]={9746.4063,311.69897,2731.749};
+			azimut=200.05923;
+			id=133;
+			side="EMPTY";
+			vehicle="Ficus_1";
+			skill=0.60000002;
+			init="this addAction [""Gather Apples"", ""activities\applegather.sqf""];";
+		};
+		class Item117
+		{
+			position[]={9735.8057,309.47867,2730.9385};
+			azimut=-66.559158;
+			id=134;
+			side="EMPTY";
+			vehicle="Ficus_1";
+			skill=0.60000002;
+			init="this addAction [""Gather Apples"", ""activities\applegather.sqf""];";
+		};
+		class Item118
+		{
+			position[]={9727.7168,308.68549,2724.2827};
+			azimut=-42.545479;
+			id=135;
+			side="EMPTY";
+			vehicle="Ficus_1";
+			skill=0.60000002;
+			init="this addAction [""Gather Apples"", ""activities\applegather.sqf""];";
+		};
+		class Item119
+		{
+			position[]={9725.7715,310.40887,2711.9849};
+			azimut=122.8177;
+			id=136;
+			side="EMPTY";
+			vehicle="Ficus_1";
+			skill=0.60000002;
+			init="this addAction [""Gather Apples"", ""activities\applegather.sqf""];";
+		};
+		class Item120
+		{
+			position[]={9716.5176,306.88971,2719.606};
+			azimut=62.541958;
+			id=137;
+			side="EMPTY";
+			vehicle="Ficus_1";
+			skill=0.60000002;
+			init="this addAction [""Gather Apples"", ""activities\applegather.sqf""];";
+		};
+		class Item121
+		{
+			position[]={9716.3496,300.97382,2756.2329};
+			azimut=200.05923;
+			id=138;
+			side="EMPTY";
+			vehicle="Ficus_1";
+			skill=0.60000002;
+			init="this addAction [""Gather Apples"", ""activities\applegather.sqf""];";
+		};
+		class Item122
+		{
+			position[]={9705.75,298.09,2755.4224};
+			azimut=-66.559158;
+			id=139;
+			side="EMPTY";
+			vehicle="Ficus_1";
+			skill=0.60000002;
+			init="this addAction [""Gather Apples"", ""activities\applegather.sqf""];";
+		};
+		class Item123
+		{
+			position[]={9708.4629,301.09958,2740.8794};
+			azimut=29.36516;
+			id=140;
+			side="EMPTY";
+			vehicle="Ficus_1";
+			skill=0.60000002;
+			init="this addAction [""Gather Apples"", ""activities\applegather.sqf""];";
+		};
+		class Item124
+		{
+			position[]={9697.6602,296.88055,2748.7666};
+			azimut=-42.545479;
+			id=141;
+			side="EMPTY";
+			vehicle="Ficus_1";
+			skill=0.60000002;
+			init="this addAction [""Gather Apples"", ""activities\applegather.sqf""];";
+		};
+		class Item125
+		{
+			position[]={9695.7148,298.41882,2736.4688};
+			azimut=122.8177;
+			id=142;
+			side="EMPTY";
+			vehicle="Ficus_1";
+			skill=0.60000002;
+			init="this addAction [""Gather Apples"", ""activities\applegather.sqf""];";
+		};
+		class Item126
+		{
+			position[]={9686.4609,294.84537,2744.0898};
+			azimut=62.541958;
+			id=143;
+			side="EMPTY";
+			vehicle="Ficus_1";
+			skill=0.60000002;
+			init="this addAction [""Gather Apples"", ""activities\applegather.sqf""];";
+		};
+		class Item127
+		{
+			position[]={9702.5156,302.04736,2726.5308};
+			azimut=529.29425;
+			id=144;
+			side="EMPTY";
+			vehicle="Ficus_1";
+			skill=0.60000002;
+			init="this addAction [""Gather Apples"", ""activities\applegather.sqf""];";
+		};
+		class Item128
+		{
+			position[]={9693.8203,300.96335,2720.4092};
+			azimut=262.67603;
+			id=145;
+			side="EMPTY";
+			vehicle="Ficus_1";
+			skill=0.60000002;
+			init="this addAction [""Gather Apples"", ""activities\applegather.sqf""];";
+		};
+		class Item129
+		{
+			position[]={9703.5869,305.50201,2709.3013};
+			azimut=358.60028;
+			id=146;
+			side="EMPTY";
+			vehicle="Ficus_1";
+			skill=0.60000002;
+			init="this addAction [""Gather Apples"", ""activities\applegather.sqf""];";
+		};
+		class Item130
+		{
+			position[]={9690.2715,302.16553,2710.5552};
+			azimut=286.68976;
+			id=147;
+			side="EMPTY";
+			vehicle="Ficus_1";
+			skill=0.60000002;
+			init="this addAction [""Gather Apples"", ""activities\applegather.sqf""];";
+		};
+		class Item131
+		{
+			position[]={9694.8945,305.61447,2698.9946};
+			azimut=452.0528;
+			id=148;
+			side="EMPTY";
+			vehicle="Ficus_1";
+			skill=0.60000002;
+			init="this addAction [""Gather Apples"", ""activities\applegather.sqf""];";
+		};
+		class Item132
+		{
+			position[]={9730.377,303.13977,2768.1445};
+			azimut=57.408501;
+			id=149;
+			side="EMPTY";
+			vehicle="Ficus_1";
+			skill=0.60000002;
+			init="this addAction [""Gather Apples"", ""activities\applegather.sqf""];";
+		};
+		class Item133
+		{
+			position[]={9760.6279,310.0976,2770.3086};
+			azimut=200.05923;
+			id=150;
+			side="EMPTY";
+			vehicle="Ficus_1";
+			skill=0.60000002;
+			init="this addAction [""Gather Apples"", ""activities\applegather.sqf""];";
+		};
+		class Item134
+		{
+			position[]={9750.0273,307.49747,2769.498};
+			azimut=-66.559158;
+			id=151;
+			side="EMPTY";
+			vehicle="Ficus_1";
+			skill=0.60000002;
+			init="this addAction [""Gather Apples"", ""activities\applegather.sqf""];";
+		};
+		class Item135
+		{
+			position[]={9752.7402,309.83081,2754.9551};
+			azimut=29.36516;
+			id=152;
+			side="EMPTY";
+			vehicle="Ficus_1";
+			skill=0.60000002;
+			init="this addAction [""Gather Apples"", ""activities\applegather.sqf""];";
+		};
+		class Item136
+		{
+			position[]={9741.9375,306.5256,2762.8423};
+			azimut=-42.545479;
+			id=153;
+			side="EMPTY";
+			vehicle="Ficus_1";
+			skill=0.60000002;
+			init="this addAction [""Gather Apples"", ""activities\applegather.sqf""];";
+		};
+		class Item137
+		{
+			position[]={9739.9932,307.76648,2750.5444};
+			azimut=122.8177;
+			id=154;
+			side="EMPTY";
+			vehicle="Ficus_1";
+			skill=0.60000002;
+			init="this addAction [""Gather Apples"", ""activities\applegather.sqf""];";
+		};
+		class Item138
+		{
+			position[]={9730.7393,304.52176,2758.1655};
+			azimut=62.541958;
+			id=155;
+			side="EMPTY";
+			vehicle="Ficus_1";
+			skill=0.60000002;
+			init="this addAction [""Gather Apples"", ""activities\applegather.sqf""];";
+		};
+		class Item139
+		{
+			position[]={9717.8828,309.84634,2705.1831};
+			azimut=106.85424;
+			id=156;
+			side="EMPTY";
+			vehicle="Ficus_1";
+			skill=0.60000002;
+			init="this addAction [""Gather Apples"", ""activities\applegather.sqf""];";
+		};
+		class Item140
+		{
+			position[]={9734.7168,313.86853,2703.2305};
+			azimut=106.85424;
+			id=157;
+			side="EMPTY";
+			vehicle="Ficus_1";
+			skill=0.60000002;
+			init="this addAction [""Gather Apples"", ""activities\applegather.sqf""];";
+		};
+		class Item141
+		{
+			position[]={9739.1953,317.77493,2683.6045};
+			azimut=249.50502;
+			id=158;
+			side="EMPTY";
+			vehicle="Ficus_1";
+			skill=0.60000002;
+			init="this addAction [""Gather Apples"", ""activities\applegather.sqf""];";
+		};
+		class Item142
+		{
+			position[]={9731.6875,315.29865,2691.1323};
+			azimut=-17.1134;
+			id=159;
+			side="EMPTY";
+			vehicle="Ficus_1";
+			skill=0.60000002;
+			init="this addAction [""Gather Apples"", ""activities\applegather.sqf""];";
+		};
+		class Item143
+		{
+			position[]={9722.4023,315.2457,2679.6157};
+			azimut=78.810921;
+			id=160;
+			side="EMPTY";
+			vehicle="Ficus_1";
+			skill=0.60000002;
+			init="this addAction [""Gather Apples"", ""activities\applegather.sqf""];";
+		};
+		class Item144
+		{
+			position[]={9721.3711,312.84024,2692.9507};
+			azimut=6.9002686;
+			id=161;
+			side="EMPTY";
+			vehicle="Ficus_1";
+			skill=0.60000002;
+			init="this addAction [""Gather Apples"", ""activities\applegather.sqf""];";
+		};
+		class Item145
+		{
+			position[]={9710.7637,311.73273,2686.4331};
+			azimut=172.26347;
+			id=162;
+			side="EMPTY";
+			vehicle="Ficus_1";
+			skill=0.60000002;
+			init="this addAction [""Gather Apples"", ""activities\applegather.sqf""];";
+		};
+		class Item146
+		{
+			position[]={9710.5371,309.47119,2698.4185};
+			azimut=111.9877;
+			id=163;
+			side="EMPTY";
+			vehicle="Ficus_1";
+			skill=0.60000002;
+			init="this addAction [""Gather Apples"", ""activities\applegather.sqf""];";
+		};
+		class Item147
+		{
+			position[]={9752.1094,314.4852,2720.5474};
+			azimut=78.147293;
+			id=164;
+			side="EMPTY";
+			vehicle="Ficus_1";
+			skill=0.60000002;
+			init="this addAction [""Gather Apples"", ""activities\applegather.sqf""];";
+		};
+		class Item148
+		{
+			position[]={9767.8145,316.38852,2726.9194};
+			azimut=78.147293;
+			id=165;
+			side="EMPTY";
+			vehicle="Ficus_1";
+			skill=0.60000002;
+			init="this addAction [""Gather Apples"", ""activities\applegather.sqf""];";
+		};
+		class Item149
+		{
+			position[]={9781.1689,320.53152,2711.8599};
+			azimut=220.798;
+			id=166;
+			side="EMPTY";
+			vehicle="Ficus_1";
+			skill=0.60000002;
+			init="this addAction [""Gather Apples"", ""activities\applegather.sqf""];";
+		};
+		class Item150
+		{
+			position[]={9770.9688,318.53461,2714.854};
+			azimut=-45.820374;
+			id=167;
+			side="EMPTY";
+			vehicle="Ficus_1";
+			skill=0.60000002;
+			init="this addAction [""Gather Apples"", ""activities\applegather.sqf""];";
+		};
+		class Item151
+		{
+			position[]={9768.3555,320.15765,2700.293};
+			azimut=50.103947;
+			id=168;
+			side="EMPTY";
+			vehicle="Ficus_1";
+			skill=0.60000002;
+			init="this addAction [""Gather Apples"", ""activities\applegather.sqf""];";
+		};
+		class Item152
+		{
+			position[]={9761.0459,317.29523,2711.4932};
+			azimut=-21.806686;
+			id=169;
+			side="EMPTY";
+			vehicle="Ficus_1";
+			skill=0.60000002;
+			init="this addAction [""Gather Apples"", ""activities\applegather.sqf""];";
+		};
+		class Item153
+		{
+			position[]={9754.8711,317.82455,2700.6812};
+			azimut=143.55646;
+			id=170;
+			side="EMPTY";
+			vehicle="Ficus_1";
+			skill=0.60000002;
+			init="this addAction [""Gather Apples"", ""activities\applegather.sqf""];";
+		};
+		class Item154
+		{
+			position[]={9748.915,315.20123,2711.0845};
+			azimut=83.280739;
+			id=171;
+			side="EMPTY";
+			vehicle="Ficus_1";
+			skill=0.60000002;
+			init="this addAction [""Gather Apples"", ""activities\applegather.sqf""];";
+		};
+		class Item155
+		{
+			position[]={9758.6953,312.82251,2742.0923};
+			azimut=381.0314;
+			id=172;
+			side="EMPTY";
+			vehicle="Ficus_1";
+			skill=0.60000002;
+			init="this addAction [""Gather Apples"", ""activities\applegather.sqf""];";
+		};
+		class Item156
+		{
+			position[]={9766.8408,312.52866,2757.3071};
+			azimut=210.33733;
+			id=173;
+			side="EMPTY";
+			vehicle="Ficus_1";
+			skill=0.60000002;
+			init="this addAction [""Gather Apples"", ""activities\applegather.sqf""];";
+		};
+		class Item157
+		{
+			position[]={6563.4297,96.625031,5614.3442};
+			azimut=143.254;
+			id=174;
+			side="EMPTY";
+			vehicle="Ficus_1";
+			skill=0.60000002;
+			init="this addAction [""Gather Peaches"", ""activities\peechGather.sqf""];";
+		};
+		class Item158
+		{
+			position[]={6568.3086,96.808746,5608.668};
+			azimut=74.569679;
+			id=175;
+			side="EMPTY";
+			vehicle="Ficus_1";
+			skill=0.60000002;
+			init="this addAction [""Gather Peaches"", ""activities\peechGather.sqf""];";
+		};
+		class Item159
+		{
+			position[]={6571.147,96.888741,5595.4248};
+			azimut=168.74693;
+			id=176;
+			side="EMPTY";
+			vehicle="Ficus_1";
+			skill=0.60000002;
+			init="this addAction [""Gather Peaches"", ""activities\peechGather.sqf""];";
+		};
+		class Item160
+		{
+			position[]={6575.5776,97.182388,5602.5957};
+			azimut=219.25623;
+			id=177;
+			side="EMPTY";
+			vehicle="Ficus_1";
+			skill=0.60000002;
+			init="this addAction [""Gather Peaches"", ""activities\peechGather.sqf""];";
+		};
+		class Item161
+		{
+			position[]={6575.1802,97.182388,5614.3442};
+			azimut=52.083538;
+			id=178;
+			side="EMPTY";
+			vehicle="Ficus_1";
+			skill=0.60000002;
+			init="this addAction [""Gather Peaches"", ""activities\peechGather.sqf""];";
+		};
+		class Item162
+		{
+			position[]={6580.3579,97.182388,5609.8623};
+			azimut=112.97072;
+			id=179;
+			side="EMPTY";
+			vehicle="Ficus_1";
+			skill=0.60000002;
+			init="this addAction [""Gather Peaches"", ""activities\peechGather.sqf""];";
+		};
+		class Item163
+		{
+			position[]={6581.2051,97.182388,5599.9058};
+			azimut=107.50662;
+			id=180;
+			side="EMPTY";
+			vehicle="Ficus_1";
+			skill=0.60000002;
+			init="this addAction [""Gather Peaches"", ""activities\peechGather.sqf""];";
+		};
+		class Item164
+		{
+			position[]={6560.6914,96.126175,5602.2949};
+			azimut=188.8696;
+			id=181;
+			side="EMPTY";
+			vehicle="Ficus_1";
+			skill=0.60000002;
+			init="this addAction [""Gather Peaches"", ""activities\peechGather.sqf""];";
+		};
+		class Item165
+		{
+			position[]={6546.9614,95.062408,5592.0444};
+			azimut=143.254;
+			id=182;
+			side="EMPTY";
+			vehicle="Ficus_1";
+			skill=0.60000002;
+			init="this addAction [""Gather Peaches"", ""activities\peechGather.sqf""];";
+		};
+		class Item166
+		{
+			position[]={6551.8403,95.538696,5586.3682};
+			azimut=74.569679;
+			id=183;
+			side="EMPTY";
+			vehicle="Ficus_1";
+			skill=0.60000002;
+			init="this addAction [""Gather Peaches"", ""activities\peechGather.sqf""];";
+		};
+		class Item167
+		{
+			position[]={6554.6787,96.191986,5573.125};
+			azimut=168.74693;
+			id=184;
+			side="EMPTY";
+			vehicle="Ficus_1";
+			skill=0.60000002;
+			init="this addAction [""Gather Peaches"", ""activities\peechGather.sqf""];";
+		};
+		class Item168
+		{
+			position[]={6559.1094,96.281853,5580.2959};
+			azimut=219.25623;
+			id=185;
+			side="EMPTY";
+			vehicle="Ficus_1";
+			skill=0.60000002;
+			init="this addAction [""Gather Peaches"", ""activities\peechGather.sqf""];";
+		};
+		class Item169
+		{
+			position[]={6558.7119,95.961357,5592.0444};
+			azimut=52.083538;
+			id=186;
+			side="EMPTY";
+			vehicle="Ficus_1";
+			skill=0.60000002;
+			init="this addAction [""Gather Peaches"", ""activities\peechGather.sqf""];";
+		};
+		class Item170
+		{
+			position[]={6563.8896,96.428207,5587.5625};
+			azimut=112.97072;
+			id=187;
+			side="EMPTY";
+			vehicle="Ficus_1";
+			skill=0.60000002;
+			init="this addAction [""Gather Peaches"", ""activities\peechGather.sqf""];";
+		};
+		class Item171
+		{
+			position[]={6564.7368,96.724937,5577.606};
+			azimut=107.50662;
+			id=188;
+			side="EMPTY";
+			vehicle="Ficus_1";
+			skill=0.60000002;
+			init="this addAction [""Gather Peaches"", ""activities\peechGather.sqf""];";
+		};
+		class Item172
+		{
+			position[]={6544.2231,95.154961,5579.9951};
+			azimut=188.8696;
+			id=189;
+			side="EMPTY";
+			vehicle="Ficus_1";
+			skill=0.60000002;
+			init="this addAction [""Gather Peaches"", ""activities\peechGather.sqf""];";
+		};
+		class Item173
+		{
+			position[]={6536.3237,95.278831,5619.7646};
+			azimut=143.254;
+			id=190;
+			side="EMPTY";
+			vehicle="Ficus_1";
+			skill=0.60000002;
+			init="this addAction [""Gather Peaches"", ""activities\peechGather.sqf""];";
+		};
+		class Item174
+		{
+			position[]={6541.2026,95.169975,5614.0884};
+			azimut=74.569679;
+			id=191;
+			side="EMPTY";
+			vehicle="Ficus_1";
+			skill=0.60000002;
+			init="this addAction [""Gather Peaches"", ""activities\peechGather.sqf""];";
+		};
+		class Item175
+		{
+			position[]={6544.041,94.826935,5600.8452};
+			azimut=168.74693;
+			id=192;
+			side="EMPTY";
+			vehicle="Ficus_1";
+			skill=0.60000002;
+			init="this addAction [""Gather Peaches"", ""activities\peechGather.sqf""];";
+		};
+		class Item176
+		{
+			position[]={6548.4717,95.327286,5608.0161};
+			azimut=219.25623;
+			id=193;
+			side="EMPTY";
+			vehicle="Ficus_1";
+			skill=0.60000002;
+			init="this addAction [""Gather Peaches"", ""activities\peechGather.sqf""];";
+		};
+		class Item177
+		{
+			position[]={6548.0742,95.964615,5619.7646};
+			azimut=52.083538;
+			id=194;
+			side="EMPTY";
+			vehicle="Ficus_1";
+			skill=0.60000002;
+			init="this addAction [""Gather Peaches"", ""activities\peechGather.sqf""];";
+		};
+		class Item178
+		{
+			position[]={6553.252,96.069496,5615.2827};
+			azimut=112.97072;
+			id=195;
+			side="EMPTY";
+			vehicle="Ficus_1";
+			skill=0.60000002;
+			init="this addAction [""Gather Peaches"", ""activities\peechGather.sqf""];";
+		};
+		class Item179
+		{
+			position[]={6554.0991,95.66497,5605.3262};
+			azimut=107.50662;
+			id=196;
+			side="EMPTY";
+			vehicle="Ficus_1";
+			skill=0.60000002;
+			init="this addAction [""Gather Peaches"", ""activities\peechGather.sqf""];";
+		};
+		class Item180
+		{
+			position[]={6533.5854,94.814064,5607.7153};
+			azimut=188.8696;
+			id=197;
+			side="EMPTY";
+			vehicle="Ficus_1";
+			skill=0.60000002;
+			init="this addAction [""Gather Peaches"", ""activities\peechGather.sqf""];";
+		};
+		class Item181
+		{
+			position[]={6559.3379,97.182388,5640.0195};
+			azimut=143.254;
+			id=198;
+			side="EMPTY";
+			vehicle="Ficus_1";
+			skill=0.60000002;
+			init="this addAction [""Gather Peaches"", ""activities\peechGather.sqf""];";
+		};
+		class Item182
+		{
+			position[]={6564.2168,97.16082,5634.3433};
+			azimut=74.569679;
+			id=199;
+			side="EMPTY";
+			vehicle="Ficus_1";
+			skill=0.60000002;
+			init="this addAction [""Gather Peaches"", ""activities\peechGather.sqf""];";
+		};
+		class Item183
+		{
+			position[]={6567.0552,96.972061,5621.1001};
+			azimut=168.74693;
+			id=200;
+			side="EMPTY";
+			vehicle="Ficus_1";
+			skill=0.60000002;
+			init="this addAction [""Gather Peaches"", ""activities\peechGather.sqf""];";
+		};
+		class Item184
+		{
+			position[]={6571.4858,97.178741,5628.271};
+			azimut=219.25623;
+			id=201;
+			side="EMPTY";
+			vehicle="Ficus_1";
+			skill=0.60000002;
+			init="this addAction [""Gather Peaches"", ""activities\peechGather.sqf""];";
+		};
+		class Item185
+		{
+			position[]={6571.0884,97.182388,5640.0195};
+			azimut=52.083538;
+			id=202;
+			side="EMPTY";
+			vehicle="Ficus_1";
+			skill=0.60000002;
+			init="this addAction [""Gather Peaches"", ""activities\peechGather.sqf""];";
+		};
+		class Item186
+		{
+			position[]={6576.2661,97.182388,5635.5376};
+			azimut=112.97072;
+			id=203;
+			side="EMPTY";
+			vehicle="Ficus_1";
+			skill=0.60000002;
+			init="this addAction [""Gather Peaches"", ""activities\peechGather.sqf""];";
+		};
+		class Item187
+		{
+			position[]={6577.1133,97.182388,5625.5811};
+			azimut=107.50662;
+			id=204;
+			side="EMPTY";
+			vehicle="Ficus_1";
+			skill=0.60000002;
+			init="this addAction [""Gather Peaches"", ""activities\peechGather.sqf""];";
+		};
+		class Item188
+		{
+			position[]={6556.5996,96.849899,5627.9702};
+			azimut=188.8696;
+			id=205;
+			side="EMPTY";
+			vehicle="Ficus_1";
+			skill=0.60000002;
+			init="this addAction [""Gather Peaches"", ""activities\peechGather.sqf""];";
+		};
+		class Item189
+		{
+			position[]={6586.8545,97.182388,5628.4595};
+			azimut=143.254;
+			id=206;
+			side="EMPTY";
+			vehicle="Ficus_1";
+			skill=0.60000002;
+			init="this addAction [""Gather Peaches"", ""activities\peechGather.sqf""];";
+		};
+		class Item190
+		{
+			position[]={6591.7334,97.182388,5622.7832};
+			azimut=74.569679;
+			id=207;
+			side="EMPTY";
+			vehicle="Ficus_1";
+			skill=0.60000002;
+			init="this addAction [""Gather Peaches"", ""activities\peechGather.sqf""];";
+		};
+		class Item191
+		{
+			position[]={6594.5718,97.182388,5609.54};
+			azimut=168.74693;
+			id=208;
+			side="EMPTY";
+			vehicle="Ficus_1";
+			skill=0.60000002;
+			init="this addAction [""Gather Peaches"", ""activities\peechGather.sqf""];";
+		};
+		class Item192
+		{
+			position[]={6599.0024,97.182388,5616.7109};
+			azimut=219.25623;
+			id=209;
+			side="EMPTY";
+			vehicle="Ficus_1";
+			skill=0.60000002;
+			init="this addAction [""Gather Peaches"", ""activities\peechGather.sqf""];";
+		};
+		class Item193
+		{
+			position[]={6598.605,97.285973,5628.4595};
+			azimut=52.083538;
+			id=210;
+			side="EMPTY";
+			vehicle="Ficus_1";
+			skill=0.60000002;
+			init="this addAction [""Gather Peaches"", ""activities\peechGather.sqf""];";
+		};
+		class Item194
+		{
+			position[]={6603.7827,97.301971,5623.9775};
+			azimut=112.97072;
+			id=211;
+			side="EMPTY";
+			vehicle="Ficus_1";
+			skill=0.60000002;
+			init="this addAction [""Gather Peaches"", ""activities\peechGather.sqf""];";
+		};
+		class Item195
+		{
+			position[]={6604.6299,97.182388,5614.021};
+			azimut=107.50662;
+			id=212;
+			side="EMPTY";
+			vehicle="Ficus_1";
+			skill=0.60000002;
+			init="this addAction [""Gather Peaches"", ""activities\peechGather.sqf""];";
+		};
+		class Item196
+		{
+			position[]={6584.1162,97.182388,5616.4102};
+			azimut=188.8696;
+			id=213;
+			side="EMPTY";
+			vehicle="Ficus_1";
+			skill=0.60000002;
+			init="this addAction [""Gather Peaches"", ""activities\peechGather.sqf""];";
+		};
+		class Item197
+		{
+			position[]={6591.9688,97.182388,5599.3076};
+			azimut=143.254;
+			id=214;
+			side="EMPTY";
+			vehicle="Ficus_1";
+			skill=0.60000002;
+			init="this addAction [""Gather Peaches"", ""activities\peechGather.sqf""];";
+		};
+		class Item198
+		{
+			position[]={6596.8477,97.182388,5593.6313};
+			azimut=74.569679;
+			id=215;
+			side="EMPTY";
+			vehicle="Ficus_1";
+			skill=0.60000002;
+			init="this addAction [""Gather Peaches"", ""activities\peechGather.sqf""];";
+		};
+		class Item199
+		{
+			position[]={6599.686,97.182388,5580.3882};
+			azimut=168.74693;
+			id=216;
+			side="EMPTY";
+			vehicle="Ficus_1";
+			skill=0.60000002;
+			init="this addAction [""Gather Peaches"", ""activities\peechGather.sqf""];";
+		};
+		class Item200
+		{
+			position[]={6604.1167,97.182388,5587.5591};
+			azimut=219.25623;
+			id=217;
+			side="EMPTY";
+			vehicle="Ficus_1";
+			skill=0.60000002;
+			init="this addAction [""Gather Peaches"", ""activities\peechGather.sqf""];";
+		};
+		class Item201
+		{
+			position[]={6603.7192,97.182388,5599.3076};
+			azimut=52.083538;
+			id=218;
+			side="EMPTY";
+			vehicle="Ficus_1";
+			skill=0.60000002;
+			init="this addAction [""Gather Peaches"", ""activities\peechGather.sqf""];";
+		};
+		class Item202
+		{
+			position[]={6608.897,97.182388,5594.8257};
+			azimut=112.97072;
+			id=219;
+			side="EMPTY";
+			vehicle="Ficus_1";
+			skill=0.60000002;
+			init="this addAction [""Gather Peaches"", ""activities\peechGather.sqf""];";
+		};
+		class Item203
+		{
+			position[]={6609.7441,97.274101,5584.8691};
+			azimut=107.50662;
+			id=220;
+			side="EMPTY";
+			vehicle="Ficus_1";
+			skill=0.60000002;
+			init="this addAction [""Gather Peaches"", ""activities\peechGather.sqf""];";
+		};
+		class Item204
+		{
+			position[]={6589.2305,97.182388,5587.2583};
+			azimut=188.8696;
+			id=221;
+			side="EMPTY";
+			vehicle="Ficus_1";
+			skill=0.60000002;
+			init="this addAction [""Gather Peaches"", ""activities\peechGather.sqf""];";
+		};
+		class Item205
+		{
+			position[]={6574.8867,97.177132,5580.4854};
+			azimut=143.254;
+			id=222;
+			side="EMPTY";
+			vehicle="Ficus_1";
+			skill=0.60000002;
+			init="this addAction [""Gather Peaches"", ""activities\peechGather.sqf""];";
+		};
+		class Item206
+		{
+			position[]={6579.7656,97.182388,5574.8091};
+			azimut=74.569679;
+			id=223;
+			side="EMPTY";
+			vehicle="Ficus_1";
+			skill=0.60000002;
+			init="this addAction [""Gather Peaches"", ""activities\peechGather.sqf""];";
+		};
+		class Item207
+		{
+			position[]={6582.604,97.196373,5561.5659};
+			azimut=168.74693;
+			id=224;
+			side="EMPTY";
+			vehicle="Ficus_1";
+			skill=0.60000002;
+			init="this addAction [""Gather Peaches"", ""activities\peechGather.sqf""];";
+		};
+		class Item208
+		{
+			position[]={6587.0347,97.182388,5568.7368};
+			azimut=219.25623;
+			id=225;
+			side="EMPTY";
+			vehicle="Ficus_1";
+			skill=0.60000002;
+			init="this addAction [""Gather Peaches"", ""activities\peechGather.sqf""];";
+		};
+		class Item209
+		{
+			position[]={6586.6372,97.182388,5580.4854};
+			azimut=52.083538;
+			id=226;
+			side="EMPTY";
+			vehicle="Ficus_1";
+			skill=0.60000002;
+			init="this addAction [""Gather Peaches"", ""activities\peechGather.sqf""];";
+		};
+		class Item210
+		{
+			position[]={6591.8149,97.182388,5576.0034};
+			azimut=112.97072;
+			id=227;
+			side="EMPTY";
+			vehicle="Ficus_1";
+			skill=0.60000002;
+			init="this addAction [""Gather Peaches"", ""activities\peechGather.sqf""];";
+		};
+		class Item211
+		{
+			position[]={6592.6621,97.182388,5566.0469};
+			azimut=107.50662;
+			id=228;
+			side="EMPTY";
+			vehicle="Ficus_1";
+			skill=0.60000002;
+			init="this addAction [""Gather Peaches"", ""activities\peechGather.sqf""];";
+		};
+		class Item212
+		{
+			position[]={6572.1484,97.139694,5568.436};
+			azimut=188.8696;
+			id=229;
+			side="EMPTY";
+			vehicle="Ficus_1";
+			skill=0.60000002;
+			init="this addAction [""Gather Peaches"", ""activities\peechGather.sqf""];";
+		};
+		class Item213
+		{
+			position[]={5777.7935,267.62207,7237.6929};
+			azimut=-467.18799;
+			id=230;
+			side="EMPTY";
+			vehicle="BluntRock_Spike";
+			skill=0.60000002;
+			init="this allowDamage false;  this addAction [""Mine Rock"", ""activities\minerock.sqf""];";
+		};
+		class Item214
+		{
+			position[]={5767.1934,267.23138,7267.4395};
+			azimut=-339.17499;
+			id=231;
+			side="EMPTY";
+			vehicle="BluntRock_Spike";
+			skill=0.60000002;
+			init="this allowDamage false;  this addAction [""Mine Rock"", ""activities\minerock.sqf""];";
+		};
+		class Item215
+		{
+			position[]={5776.1025,266.93484,7288.4214};
+			azimut=-133.474;
+			id=232;
+			side="EMPTY";
+			vehicle="BluntRock_Spike";
+			skill=0.60000002;
+			init="this allowDamage false;  this addAction [""Mine Rock"", ""activities\minerock.sqf""];";
+		};
+		class Item216
+		{
+			position[]={5803.896,267.10971,7235.9214};
+			azimut=-67.0354;
+			id=233;
+			side="EMPTY";
+			vehicle="BluntRock_Spike";
+			skill=0.60000002;
+			init="this allowDamage false;  this addAction [""Mine Rock"", ""activities\minerock.sqf""];";
+		};
+		class Item217
+		{
+			position[]={5786.8452,269.08832,7263.4922};
+			azimut=-141.299;
+			id=234;
+			side="EMPTY";
+			vehicle="BluntRock_Apart";
+			skill=0.60000002;
+			init="this allowDamage false;  this addAction [""Mine Rock"", ""activities\minerock.sqf""];";
+		};
+		class Item218
+		{
+			position[]={5802.2354,267.02585,7289.3794};
+			azimut=-106.9724;
+			id=235;
+			side="EMPTY";
+			vehicle="BluntRock_Spike";
+			skill=0.60000002;
+			init="this allowDamage false;  ";
+		};
+		class Item219
+		{
+			position[]={5798.5952,268.23593,7275.5693};
+			azimut=18.9272;
+			id=236;
+			side="EMPTY";
+			vehicle="BluntStone1";
+			skill=0.60000002;
+			init="this allowDamage false;  this addAction [""Mine Rock"", ""activities\minerock.sqf""];";
+		};
+		class Item220
+		{
+			position[]={5805.1846,268.17618,7262.3428};
+			azimut=-99.178299;
+			id=237;
+			side="EMPTY";
+			vehicle="BluntStone1_LC";
+			skill=0.60000002;
+			init="this allowDamage false;  this addAction [""Mine Rock"", ""activities\minerock.sqf""];";
+		};
+		class Item221
+		{
+			position[]={5793.7754,268.67126,7252.0996};
+			azimut=1.34925;
+			id=238;
+			side="EMPTY";
+			vehicle="BluntStone1";
+			skill=0.60000002;
+			init="this allowDamage false;  this addAction [""Mine Rock"", ""activities\minerock.sqf""];";
+		};
+		class Item222
+		{
+			position[]={5816.8799,266.86624,7256.1582};
+			azimut=-55.952999;
+			id=239;
+			side="EMPTY";
+			vehicle="BluntStone1";
+			skill=0.60000002;
+			init="this allowDamage false;  this addAction [""Mine Rock"", ""activities\minerock.sqf""];";
+		};
+		class Item223
+		{
+			position[]={5821.1421,265.97333,7275.71};
+			azimut=-32.813801;
+			id=240;
+			side="EMPTY";
+			vehicle="BluntStone3";
+			skill=0.60000002;
+			init="this allowDamage false;  this addAction [""Mine Rock"", ""activities\minerock.sqf""];";
+		};
+		class Item224
+		{
+			position[]={9919.7002,374.45502,3063.5369};
+			azimut=-467.18799;
+			id=241;
+			side="EMPTY";
+			vehicle="BluntRock_Spike";
+			skill=0.60000002;
+			init="this allowDamage false;  this addAction [""Mine Rock"", ""activities\minerock.sqf""];";
+		};
+		class Item225
+		{
+			position[]={9904.0566,374.71881,3090.1309};
+			azimut=-339.17499;
+			id=242;
+			side="EMPTY";
+			vehicle="BluntRock_Spike";
+			skill=0.60000002;
+			init="this allowDamage false;  this addAction [""Mine Rock"", ""activities\minerock.sqf""];";
+		};
+		class Item226
+		{
+			position[]={9912.9648,376.50922,3111.1128};
+			azimut=-133.474;
+			id=243;
+			side="EMPTY";
+			vehicle="BluntRock_Spike";
+			skill=0.60000002;
+			init="this allowDamage false;  this addAction [""Mine Rock"", ""activities\minerock.sqf""];";
+		};
+		class Item227
+		{
+			position[]={9940.7588,375.95032,3058.6128};
+			azimut=-67.0354;
+			id=244;
+			side="EMPTY";
+			vehicle="BluntRock_Spike";
+			skill=0.60000002;
+			init="this allowDamage false;  this addAction [""Mine Rock"", ""activities\minerock.sqf""];";
+		};
+		class Item228
+		{
+			position[]={9923.708,376.41772,3086.1836};
+			azimut=-141.299;
+			id=245;
+			side="EMPTY";
+			vehicle="BluntRock_Apart";
+			skill=0.60000002;
+			init="this allowDamage false;  this addAction [""Mine Rock"", ""activities\minerock.sqf""];";
+		};
+		class Item229
+		{
+			position[]={9939.0977,375.63403,3112.0708};
+			azimut=-106.9724;
+			id=246;
+			side="EMPTY";
+			vehicle="BluntRock_Spike";
+			skill=0.60000002;
+			init="this allowDamage false;  ";
+		};
+		class Item230
+		{
+			position[]={9935.458,376.46536,3098.2607};
+			azimut=18.9272;
+			id=247;
+			side="EMPTY";
+			vehicle="BluntStone1";
+			skill=0.60000002;
+			init="this allowDamage false;  this addAction [""Mine Rock"", ""activities\minerock.sqf""];";
+		};
+		class Item231
+		{
+			position[]={9942.0469,376.47296,3085.0342};
+			azimut=-99.178299;
+			id=248;
+			side="EMPTY";
+			vehicle="BluntStone1_LC";
+			skill=0.60000002;
+			init="this allowDamage false;  this addAction [""Mine Rock"", ""activities\minerock.sqf""];";
+		};
+		class Item232
+		{
+			position[]={9930.6387,376.30557,3074.791};
+			azimut=1.34925;
+			id=249;
+			side="EMPTY";
+			vehicle="BluntStone1";
+			skill=0.60000002;
+			init="this allowDamage false;  this addAction [""Mine Rock"", ""activities\minerock.sqf""];";
+		};
+		class Item233
+		{
+			position[]={9953.7422,375.7345,3078.8496};
+			azimut=-55.952999;
+			id=250;
+			side="EMPTY";
+			vehicle="BluntStone1";
+			skill=0.60000002;
+			init="this allowDamage false;  this addAction [""Mine Rock"", ""activities\minerock.sqf""];";
+		};
+		class Item234
+		{
+			position[]={9955.6934,374.32651,3097.7705};
+			azimut=-32.813801;
+			id=251;
+			side="EMPTY";
+			vehicle="BluntStone3";
+			skill=0.60000002;
+			init="this allowDamage false;  this addAction [""Mine Rock"", ""activities\minerock.sqf""];";
+		};
+	};
+	class Markers
+	{
+		items=26;
+		class Item0
+		{
+			position[]={4906.1372,202.27783,6929.4526};
+			name="atm";
+			text="ATM";
+			type="n_unknown";
+			colorName="ColorGreen";
+		};
+		class Item1
+		{
+			position[]={4928.6328,202.27783,6905.2295};
+			name="legitshop";
+			text="Clothing Store";
+			type="n_unknown";
+			colorName="ColorWEST";
+		};
+		class Item2
+		{
+			position[]={4823.2979,202.27783,7079.2451};
+			name="legitshop2";
+			text="Car Dealership";
+			type="n_unknown";
+			colorName="ColorWEST";
+		};
+		class Item3
+		{
+			position[]={4900.8755,202.27783,6954.2275};
+			name="dmv1";
+			text="DMV";
+			type="n_unknown";
+			colorName="ColorYellow";
+		};
+		class Item4
+		{
+			position[]={9563.7236,285.86935,2978.4424};
+			name="deangershop1";
+			text="Cannabis Dealer";
+			type="n_unknown";
+			colorName="ColorRed";
+		};
+		class Item5
+		{
+			position[]={4863.4292,202.27783,6960.8516};
+			name="legitshop4";
+			text="Market";
+			type="n_unknown";
+			colorName="ColorWEST";
+		};
+		class Item6
+		{
+			position[]={2839.7412,56.758366,6759.9043};
+			name="illlegitactivity1_1";
+			text="Cannabis Field";
+			type="o_unknown";
+			colorName="ColorRed";
+		};
+		class Item7
+		{
+			position[]={4936.4258,44.638916,9054.1191};
+			name="illlegitshop2_1";
+			text="Cannabis Processing";
+			type="n_unknown";
+			colorName="ColorRed";
+		};
+		class Item8
+		{
+			position[]={11321.987,87.620857,11234.577};
+			name="illlegitactivity1_1_1";
+			text="Poppy Field";
+			type="o_unknown";
+			colorName="ColorRed";
+		};
+		class Item9
+		{
+			position[]={5698.2432,18.360224,3445.3262};
+			name="deangershop1_1";
+			text="Heroin Dealer";
+			type="n_unknown";
+			colorName="ColorRed";
+		};
+		class Item10
+		{
+			position[]={5546.4214,35.5933,10212.648};
+			name="illlegitshop2_1_1";
+			text="Heroin Processing";
+			type="n_unknown";
+			colorName="ColorRed";
+		};
+		class Item11
+		{
+			position[]={4823.8354,202.27783,7086.3184};
+			name="vehicleshop";
+			type="Empty";
+			angle=-115.84092;
+		};
+		class Item12
+		{
+			position[]={5524.127,104.3465,6065.7324};
+			name="legitshop_1";
+			text="Weapon Trader";
+			type="n_unknown";
+			colorName="ColorWEST";
+		};
+		class Item13
+		{
+			position[]={4572.0234,148.9232,7531.0444};
+			name="legitactivity_2_1_1";
+			text="Peech Trees";
+			type="o_unknown";
+			colorName="ColorGreen";
+		};
+		class Item14
+		{
+			position[]={4821.4414,37.468109,11790.492};
+			name="pilotshop";
+			type="Empty";
+			angle=-95.149506;
+		};
+		class Item15
+		{
+			position[]={4849.4116,37.468109,11788.529};
+			name="legitshop2_1";
+			text="Plane/Helicopter Dealership";
+			type="n_unknown";
+			colorName="ColorWEST";
+		};
+		class Item16
+		{
+			position[]={4954.0005,202.27783,6907.3535};
+			name="respawn_civilian";
+			type="Empty";
+		};
+		class Item17
+		{
+			position[]={4913.6982,202.27783,6965.7075};
+			name="legitshop2_2";
+			text="Bike Shop";
+			type="n_unknown";
+			colorName="ColorWEST";
+		};
+		class Item18
+		{
+			position[]={4912.8423,202.27783,6968.0879};
+			name="bikeshop";
+			type="Empty";
+			angle=-115.841;
+		};
+		class Item19
+		{
+			position[]={7370.3159,9.1522465,6913.5225};
+			name="legitshop2_3";
+			text="Boat Dealership";
+			type="n_unknown";
+			colorName="ColorWEST";
+		};
+		class Item20
+		{
+			position[]={4875.9766,37.468109,11895.568};
+			name="atm_1";
+			text="ATM";
+			type="n_unknown";
+			colorName="ColorGreen";
+		};
+		class Item21
+		{
+			position[]={4576.9043,127.63171,6499.0195};
+			name="legitactivity_2_1_1_2";
+			text="Apple Trees";
+			type="o_unknown";
+			colorName="ColorGreen";
+		};
+		class Item22
+		{
+			position[]={9737.0898,310.08038,2728.8364};
+			name="legitactivity_2_1_1_2_1";
+			text="Apple Trees";
+			type="o_unknown";
+			colorName="ColorGreen";
+		};
+		class Item23
+		{
+			position[]={6571.6416,96.9767,5604.7744};
+			name="legitactivity_2_1_1_1";
+			text="Peech Trees";
+			type="o_unknown";
+			colorName="ColorGreen";
+		};
+		class Item24
+		{
+			position[]={5791.123,269.05237,7266.7847};
+			name="legitactivity1_1";
+			text="Rock Mine";
+			type="o_unknown";
+			colorName="ColorGreen";
+		};
+		class Item25
+		{
+			position[]={9927.9863,376.61237,3089.4761};
+			name="legitactivity1_1_1";
+			text="Rock Mine";
+			type="o_unknown";
+			colorName="ColorGreen";
+		};
+	};
+	class Sensors
+	{
+		items=2;
+		class Item0
+		{
+			position[]={2839.5654,56.723438,6760.0977};
+			a=20;
+			b=20;
+			activationBy="ANY";
+			repeating=1;
+			interruptable=1;
+			age="UNKNOWN";
+			expActiv="cannabisgatherAction = player addAction [""Gather Cannabis"", ""cannabisgather.sqf""];";
+			expDesactiv="player removeAction cannabisgatherAction;";
+			class Effects
+			{
+			};
+		};
+		class Item1
+		{
+			position[]={11321.681,87.57515,11234.667};
+			a=20;
+			b=20;
+			activationBy="ANY";
+			repeating=1;
+			interruptable=1;
+			age="UNKNOWN";
+			expActiv="heroingatherAction = player addAction [""Gather Poppy Seeds"", ""heroingather.sqf""];";
+			expDesactiv="player removeAction heroingatherAction;";
+			class Effects
+			{
+			};
+		};
+	};
+};
+class Intro
+{
+	addOns[]=
+	{
+		"everon2014"
+	};
+	addOnsAuto[]=
+	{
+		"everon2014"
+	};
+	randomSeed=13575348;
+	class Intel
+	{
+		timeOfChanges=1800.0002;
+		startWeather=0.30000001;
+		startWind=0.1;
+		startWaves=0.1;
+		forecastWeather=0.30000001;
+		forecastWind=0.1;
+		forecastWaves=0.1;
+		forecastLightnings=0.1;
+		rainForced=1;
+		year=2014;
+		month=7;
+		day=6;
+		hour=14;
+		minute=15;
+		startFogDecay=0.013;
+		forecastFogDecay=0.013;
+	};
+};
+class OutroWin
+{
+	addOns[]=
+	{
+		"everon2014"
+	};
+	addOnsAuto[]=
+	{
+		"everon2014"
+	};
+	randomSeed=1585112;
+	class Intel
+	{
+		timeOfChanges=1800.0002;
+		startWeather=0.30000001;
+		startWind=0.1;
+		startWaves=0.1;
+		forecastWeather=0.30000001;
+		forecastWind=0.1;
+		forecastWaves=0.1;
+		forecastLightnings=0.1;
+		rainForced=1;
+		year=2014;
+		month=7;
+		day=6;
+		hour=14;
+		minute=15;
+		startFogDecay=0.013;
+		forecastFogDecay=0.013;
+	};
+};
+class OutroLoose
+{
+	addOns[]=
+	{
+		"everon2014"
+	};
+	addOnsAuto[]=
+	{
+		"everon2014"
+	};
+	randomSeed=11237000;
+	class Intel
+	{
+		timeOfChanges=1800.0002;
+		startWeather=0.30000001;
+		startWind=0.1;
+		startWaves=0.1;
+		forecastWeather=0.30000001;
+		forecastWind=0.1;
+		forecastWaves=0.1;
+		forecastLightnings=0.1;
+		rainForced=1;
+		year=2014;
+		month=7;
+		day=6;
+		hour=14;
+		minute=15;
+		startFogDecay=0.013;
+		forecastFogDecay=0.013;
+	};
+};

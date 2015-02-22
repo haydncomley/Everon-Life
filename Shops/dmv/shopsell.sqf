@@ -1,0 +1,1 @@
+hint "You cant sell licenses!";

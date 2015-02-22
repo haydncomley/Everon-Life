@@ -1,0 +1,1 @@
+player addAction ["Spawn Menu", "spawnmenu.sqf", "", 1];

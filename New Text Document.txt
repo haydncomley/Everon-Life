@@ -1,0 +1,6 @@
+If (money => 100) then
+{
+	money = money - 100;
+	hint "Rook Bought"
+"
+}

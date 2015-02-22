@@ -1,0 +1,1 @@
+"B_Heli_Light_01_F" createVehicle (position player);

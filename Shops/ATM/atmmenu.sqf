@@ -1,0 +1,3 @@
+atmgui_Load_Money_Cash = {((_this select 0) displayCtrl 10002) ctrlSetText format ["£%1", playerMoney]};  
+atmgui_Load_Money_Bank = {((_this select 0) displayCtrl 10001) ctrlSetText format ["£%1", playerMoneyBank]};  
+_handle=createdialog "atmgui_dialog";

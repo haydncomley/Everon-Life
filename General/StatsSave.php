@@ -1,0 +1,1 @@
+profileNamespace setVariable ["playerMoneySaved", (playerMoney+playerMoneyBank)];

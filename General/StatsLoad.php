@@ -1,0 +1,1 @@
+profileNamespace setVariable ["money", 100];

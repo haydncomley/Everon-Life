@@ -1,0 +1,1 @@
+hint "Cant sell clothes yet!";
