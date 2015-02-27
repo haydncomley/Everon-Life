@@ -6,6 +6,6 @@ onLoadName = "Everon Life";
 loadScreen = "images\loadscreen.jpg";
 
 respawn = "BASE";
-respawnDelay = 100;
+respawnDelay = 10;
 respawnDialog = true;
 

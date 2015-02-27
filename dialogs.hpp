@@ -198,6 +198,16 @@ class spawnmenu_background: BOX
 	w = 0.438281 * safezoneW;
 	h = 0.612 * safezoneH;
 };
+class spawnmenu_spawn_hellcat: RscButton
+{
+	idc = 1600;
+	text = "Hellcat Helicopter"; //--- ToDo: Localize;
+	x = 0.288 * safezoneW + safezoneX;
+	y = 0.125 * safezoneH + safezoneY;
+	w = 0.143438 * safezoneW;
+	h = 0.068 * safezoneH;
+	action = "closeDialog 0;hint ""Spawned: Hellcat"";_null = [] execVM ""spawn_hellcat.sqf""";
+};
 class spawnmenu_spawn_hatchbacksport: RscButton
 {
 	idc = 1600;
@@ -251,9 +261,9 @@ class spawnmenu_give_sniper_ammo: RscButton
 class spawnmenu_give_explosive: RscButton
 {
 	idc = -1;
-	text = "Sniper Ammo"; //--- ToDo: Localize;
+	text = "Explosive Charge"; //--- ToDo: Localize;
 	x = 0.288 * safezoneW + safezoneX;
-	y = 0.575 * safezoneH + safezoneY;
+	y = 0.725 * safezoneH + safezoneY;
 	w = 0.143438 * safezoneW;
 	h = 0.068 * safezoneH;
 	action = "closeDialog 0;hint ""Given: Explosive"";player addMagazine ""DemoCharge_Remote_Mag"";";

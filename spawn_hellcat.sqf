@@ -1,0 +1,1 @@
+_veh = "I_Heli_light_03_unarmed_F" createVehicle position player;
